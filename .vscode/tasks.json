@@ -4,6 +4,12 @@
     "version": "2.0.0",
     "tasks": [
         {
+            "taskName": "publish",
+            "type": "shell",
+            "command": "rake site:publish",
+            "group": "build"
+        },
+        {
             "taskName": "generate",
             "type": "shell",
             "command": "rake site:generate",
