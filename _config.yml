@@ -1,22 +1,24 @@
 # Site settings
-title: Zetsu
-email: zetsu@domain.com
-description: Um lindo tema feito para jekyll e com o <3
-baseurl: "/zetsu"
-url: "http://nandomoreira.me"
+title: 'MattOps'
+email: matt@mattops.io
+description: 'Development. Administration. Automation. Security.'
+baseurl: ""
+url: "https://mattops.io"
 
 author:
-  name     : 'Fernando Moreira'
-  email    : hi@nandomoreira.me
-  url      : http://nandomoreira.me
+  name     : 'Matt Spaulding'
+  email    : matt@mattops.io
+  url      : https://mattops.io
   facebook : http://facebook.com/fernando.dev
-  twitter  : http://twitter.com/nandomoreirame
+  twitter  : http://twitter.com/mattopspdx
 
-github: https://github.com/nandomoreirame/zetsu
+github: https://github.com/mspaulding06/mspaulding06.github.io
 disqus_shortname: "fernandomoreira"
 google_analytics: UA-52446115-1
 
-paginate: 2
+plugins: [jekyll-paginate]
+
+paginate: 5
 comments: true
 paginate_path: "/page/:num"
 
