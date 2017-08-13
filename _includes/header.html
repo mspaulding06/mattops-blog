@@ -4,9 +4,11 @@
 
     <div class="container">
 
+      {% if page.title and page.title != 'Home' %}
       <h1 class="title">
         <a href="{{ site.baseurl }}/">{{ site.title }}</a>
       </h1>
+      {% endif %}
 
       <nav class="navbar">
         <a href="#" class="menu-icon">
@@ -21,8 +23,9 @@
             <li><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
             {% endif %}
           {% endfor %}
-          <li><a href="{{ site.author.url }}/about" target="_blank">The Author</a></li>
           <li><a href="{{ site.github }}" target="_blank">Github</a></li>
+          <li><a href="{{ site.links.keybase }}" target="_blank">Keybase</a></li>
+          <li><a href="{{ site.links.haskell }}" target="_blank">Haskell Meetup</a></li>
         </ul>
       </nav>
     </div>
@@ -31,6 +34,9 @@
       <h2 class="txt-center">
         <strong>{{ site.title }}</strong>
       </h2>
+      <h3 class="subtitle-center">
+        {{ site.description }}
+      </h3>
     {% endif %}
 
   </div>

@@ -68,6 +68,14 @@
   .txt-center {
     color: $white-color;
     margin-top: 160px;
+    margin-bottom: 10px;
+    font-weight: 300;
+  }
+
+  .subtitle-center {
+    color: $white-color;
+    text-align: center;
+    margin-top: 10px;
     font-weight: 300;
   }
 }
@@ -229,6 +237,10 @@
       margin-top: .8em;
     }
   }
+}
+
+.post-content {
+  font-family: $font-family-content;
 }
 
 // Social

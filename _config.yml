@@ -12,9 +12,13 @@ author:
   facebook : http://facebook.com/fernando.dev
   twitter  : http://twitter.com/mattopspdx
 
-github: https://github.com/mspaulding06/mspaulding06.github.io
-disqus_shortname: "fernandomoreira"
-google_analytics: UA-52446115-1
+github: https://github.com/mspaulding06/
+disqus_shortname: mattopspdx
+google_analytics: UA-89475997-1
+
+links:
+  haskell: https://www.meetup.com/Beaverton-Haskell-Meetup/
+  keybase: https://keybase.io/mattops/
 
 plugins: [jekyll-paginate]
 
