@@ -13,6 +13,6 @@ namespace :site do
 
   desc "Generate and publish blog to s3 bucket"
   task :publish => [:generate] do
-    system "aws s3 sync _site/. s3://mattops.io/ --delete"
+    system "aws s3 sync _site/. s3://mattops.io/ --delete --acl public-read"
   end
 end
