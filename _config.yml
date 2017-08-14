@@ -33,3 +33,10 @@ sass:
 # Build settings
 markdown  : kramdown
 permalink : /:title/
+
+exclude:
+  - README.md
+  - LICENSE
+  - Rakefile
+  - Gemfile
+  - Gemfile.lock

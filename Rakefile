@@ -1,12 +1,6 @@
 require "rubygems"
-require "tmpdir"
-
 require "bundler/setup"
 require "jekyll"
-
-# Change your GitHub reponame
-GITHUB_REPONAME = "mspaulding06/mspaulding06.github.io"
-GITHUB_REPO_BRANCH = "master"
 
 namespace :site do
   desc "Generate blog files"
@@ -17,11 +11,8 @@ namespace :site do
     })).process
   end
 
-
-  desc "Generate and publish blog to gh-pages"
+  desc "Generate and publish blog to s3 bucket"
   task :publish => [:generate] do
-    Dir.mktmpdir do |tmp|
-      system "aws s3 cp _site/. s3://mattops.io/ --recursive"
-    end
+    system "aws s3 sync _site/. s3://mattops.io/ --delete"
   end
 end
