@@ -5,7 +5,7 @@ date: '2013-01-24 03:48:00'
 tags:
 - python
 - fedora
-- build
+- devops
 ---
 
 Recently a colleague of mine wrote a blog about <a href="http://neilsoman.blogspot.com/2013/01/this-is-article-about-using-eucalyptus.html">how we do builds</a> here at Eucalyptus. It&rsquo;s an accurate overview of the life-cycle of a continuous integration build in the cloud and an excellent read. Leveraging the power of the Eucalyptus cloud we can now horizontally scale our build farm. But while we have been able to do that, there are still places where we need to optimize the build process.

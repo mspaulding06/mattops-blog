@@ -5,7 +5,6 @@ date: '2012-07-29 05:16:00'
 tags:
 - python
 - linux
-- kvm
 ---
 
 <p>Often times when I&rsquo;m working I&rsquo;ll need to use multiple virtual machines, and I prefer to access them using SSH. The problem is that in order to do that, I would need to know the IP address of the VM. Of course you could always use the good old <i>arp</i> command, though there are a couple caveats. First, entries in the arp table don&rsquo;t stay there forever. If you started the VM a while ago, you may not be able to get the IP address. Second, if you have tons of entries in your arp table it can be hard to figure out which IP address corresponds to the VM you just started.

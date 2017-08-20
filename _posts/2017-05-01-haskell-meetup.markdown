@@ -2,6 +2,7 @@
 layout: post
 title: Haskell Meetup
 date: '2017-05-01 03:58:08'
+comments: true
 tags:
 - programming
 - haskell

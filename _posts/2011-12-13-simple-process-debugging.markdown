@@ -4,7 +4,6 @@ title: Simple Process Debugging
 date: '2011-12-13 04:36:00'
 tags:
 - bash
-- debugging
 ---
 
 Ever have an elusive bug that only occurs once in a long while, usually over the weekend when you&rsquo;re not in the office? I&rsquo;ve been having this very problem with my current project, where all of the sudden it will stop closing sockets and exiting threads, resulting in a terminated process. The following is a simple shell script you can use to set maximums on open sockets and threads for a process. It will poll the process at your chosen interval. When your process exceeds the values you&rsquo;ve set, it will immediately attach the GDB debugger, which pauses execution on the process. Brilliant! Now when you come back in the morning after your test infrastructure has been beating up on your app, you&rsquo;ll be right at the point where it was starting to take a nose dive.

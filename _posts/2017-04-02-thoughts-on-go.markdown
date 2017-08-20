@@ -2,6 +2,7 @@
 layout: post
 title: Thoughts on Go
 date: '2017-04-02 03:23:21'
+comments: true
 tags:
 - programming
 - go

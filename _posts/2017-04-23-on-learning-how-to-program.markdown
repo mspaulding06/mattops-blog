@@ -2,6 +2,7 @@
 layout: post
 title: On Learning How to Program
 date: '2017-04-23 22:04:26'
+comments: true
 tags:
 - programming
 ---

@@ -1,19 +1,17 @@
 # Site settings
-title: 'MattOps'
+title: MattOps
 email: matt@mattops.io
-description: 'Development. Administration. Automation. Security.'
+description: "Development. Administration. Automation. Security."
 baseurl: ""
-url: "https://mattops.io"
+url: https://mattops.io
 
 author:
-  name     : 'Matt Spaulding'
-  email    : matt@mattops.io
-  url      : https://mattops.io
-  facebook : http://facebook.com/fernando.dev
-  twitter  : http://twitter.com/mattopspdx
+  name: 'Matt Spaulding'
+  email: matt@mattops.io
+  url: https://mattops.io
 
 github: https://github.com/mspaulding06/
-disqus_shortname: mattopspdx
+disqus_shortname: mattops-blog
 google_analytics: UA-89475997-1
 
 links:

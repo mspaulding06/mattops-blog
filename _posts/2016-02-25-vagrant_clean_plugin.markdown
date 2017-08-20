@@ -2,6 +2,8 @@
 layout: post
 title: Vagrant Clean Plugin
 date: '2016-02-25 01:21:00'
+tags:
+- devops
 ---
 
 Decided to create a Vagrant plugin to solve a problem I've been having.  When using Vagrant I find that I leave resources running that I forget about.  This plugin solves the problem by cleaning up all running Vagrant resources.  Just run `vagrant clean` and all running resources on all providers will be destroyed.

@@ -2,6 +2,8 @@
 layout: post
 title: Installing Debian Stretch (Testing)
 date: '2015-11-12 02:20:00'
+tags:
+- linux
 ---
 
 If you want to install Debian for your Linux distribution and you want a current desktop then you'd benefit from installing the testing branch.  The current stable branch, Jessie, does not have the latest versions of different desktops.  In my case, I want to use XFCE which only version 4.10 is available in Jessie.  If you use Stretch then you will find the latest version 4.12 is there.  This is necessary for me since the multi-monitor configuration in 4.12 is much better and supports extending the desktop rather than just mirroring it. 

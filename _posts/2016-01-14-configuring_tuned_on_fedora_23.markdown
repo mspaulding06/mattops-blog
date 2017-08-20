@@ -2,6 +2,8 @@
 layout: post
 title: Configuring Tuned on Fedora 23
 date: '2016-01-14 22:15:00'
+tags:
+- linux
 ---
 
 Using the tuned service on Fedora is a great way to save power on laptops.  Typically, I have used the balanced settings to get a good balance between performance and power savings.  But today I learned that tuned can work in tandem with powertop to provide an even better configuration.  If you just want to use the balanced settings you can use the tuned commands to configure that.  First you'll need to download tuned and then enable the service. 

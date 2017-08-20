@@ -2,6 +2,10 @@
 layout: post
 title: Flask and WSGI on Centos 6
 date: '2016-01-09 19:00:00'
+tags:
+- devops
+- python
+- networking
 ---
 
 In order to run a flask app with Apache and WSGI you will need to install the correct packages.

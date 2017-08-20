@@ -2,6 +2,7 @@
 layout: post
 title: Security Compliance Automation
 date: '2017-04-15 16:31:58'
+comments: true
 tags:
 - configuration-management
 - security

@@ -243,63 +243,6 @@
   font-family: $font-family-content;
 }
 
-// Social
-//
-.social-icons {
-  @extend %clearfix;
-  margin-bottom: 15px;
-
-  li:first-child {
-    margin-right: 5px;
-  }
-
-  ul {
-    margin: 0;
-    padding: 0;
-  }
-
-  li {
-    display: inline-block;
-    text-align: center;
-    margin-right: 0;
-
-    a {
-      font-size: 30px;
-      margin: 0;
-      color: #9D9D9D;
-      font-weight: 400;
-      text-shadow: none;
-      -webkit-transition: all .5s ease-in;
-      -moz-transition: all .5s ease-in;
-      -o-transition: all .5s ease-in;
-      transition: all .5s ease-in;
-      padding-right: 0;
-    }
-  }
-
-  i {
-    font-size: 20px;
-    width: 35px;
-    height: 35px;
-    padding: 7px;
-    background: #DADADA;
-    text-align: center;
-    color: #494949;
-    transition: all .2s ease-in;
-    -webkit-transition: all .2s ease-in;
-    -moz-transition: all .2s ease-in;
-  }
-
-  a:hover i.fa-facebook {
-    background-color: #3A5897;
-    color: #fff;
-  }
-  a:hover i.fa-twitter {
-    background-color: #00ABEC;
-    color: #fff;
-  }
-}
-
 // Pagination
 //
 .pagination {
