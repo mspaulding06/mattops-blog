@@ -15,7 +15,6 @@ disqus_shortname: mattops-blog
 google_analytics: UA-89475997-1
 
 links:
-  haskell: https://www.meetup.com/Beaverton-Haskell-Meetup/
   keybase: https://keybase.io/mattops/
 
 plugins: [jekyll-paginate]
